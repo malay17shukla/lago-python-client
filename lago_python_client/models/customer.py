@@ -16,7 +16,7 @@ class CustomerBillingConfiguration(BaseModel):
 
 
 class Metadata(BaseModel):
-    id: Optional[str]
+    lago_id: Optional[str]
     key: Optional[str]
     value: Optional[str]
     display_in_invoice: Optional[bool]
